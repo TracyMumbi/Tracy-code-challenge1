@@ -4,7 +4,7 @@
 
 
 
-function studentMarks(marks) { //Declaring studentMarks as a function
+function studentMarks() { //Declaring studentMarks as a function
     let marks = prompt('Type here'); //using prompt input to prompt the user to input the marks
         if (marks > 79 && marks <= 100) { // using if statements to define the ranges and print grades
             return 'Grade A';
@@ -20,3 +20,5 @@ function studentMarks(marks) { //Declaring studentMarks as a function
             return 'Invalid';
         }
     }
+
+studentMarks();

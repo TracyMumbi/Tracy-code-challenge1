@@ -6,7 +6,7 @@
 
 
 
-function inputSpeed(speed) {// declaring a function inputSpeed
+function inputSpeed() {// declaring a function inputSpeed
     let speed = prompt('Type here');//prompts the user to input the speed
     let difference = (speed -70) / 5;//defining variable difference
     if (speed <= 70 ) {
@@ -18,3 +18,5 @@ function inputSpeed(speed) {// declaring a function inputSpeed
         return 'Points:' + difference;//generates the number of demerit points 
     }
 }
+
+inputSpeed();
